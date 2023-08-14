@@ -26,6 +26,6 @@ To use the Vehicle Trajectory Analysis Framework, follow these steps:
 2. Create an instance of the `VehicleData` class by providing the path to the trajectory data file (e.g., `data.npy`).
 
 ```python
-from framework import VehicleData
+from framework.vehicle_data import VehicleData
 
 obj = VehicleData('./data.npy')
