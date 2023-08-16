@@ -3,7 +3,7 @@ import os
 
 class Plotter:
     @staticmethod
-    def save_plot(trajectories, output_path='plot.png'):
+    def save_plot(trajectories, output_path):
         plt.figure(figsize=(10, 6))
         for trajectory in trajectories:
             x_vals, y_vals = zip(*[(row[3], row[2]) for row in trajectory])

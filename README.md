@@ -29,3 +29,11 @@ To use the Vehicle Trajectory Analysis Framework, follow these steps:
 from framework.vehicle_data import VehicleData
 
 obj = VehicleData('./data.npy')
+```
+
+To see a sample execution,  run:
+```python
+pip install -r requirements.txt
+python main.py
+
+```

@@ -43,8 +43,8 @@ class VehicleData:
             return [segment for segment in self.segment().values() if filter_function(segment)]
         return list(self.segment().values())
     
-    def plot(self, trajectories):
+    def plot(self, trajectories,output_path='plot.png'):
         """
         Plot trajectories using the Plotter class.
         """
-        Plotter.save_plot(trajectories)
+        Plotter.save_plot(trajectories,output_path)
